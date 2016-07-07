@@ -1,2 +1,0 @@
-# minimal-web-
-Personal website 
