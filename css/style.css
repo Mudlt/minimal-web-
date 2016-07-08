@@ -1,0 +1,75 @@
+#main{
+  position: relative;
+  display: block;
+  /*font-size: 1.4rem;*/
+  padding-top: 9%;
+  padding-left: 15%;
+  font-family: 'Oxygen', sans-serif;
+  color: #4a4a4a;
+
+  
+}
+#description{
+  position: relative;
+  display: block;
+  font-size: 1.4rem;
+  font-family: 'Oxygen', sans-serif;
+color: #4a4a4a;
+
+}
+#description h1{
+  font-size: 2.4rem;
+}
+#description p{
+  font-size: 1.4rem;
+  line-height: 1.6em;
+}
+
+.one{
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+p{
+  line-height: 2.4rem;
+}
+.one a{
+  color: #4a4a4a;
+  text-decoration: none;
+  position: relative;
+}
+.one a:hover{
+  color: #0095ec;
+    text-decoration: none;
+}
+.one a:before{ 
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0095ec;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.one a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  /*width: 100%;*/
+  height: 100%;
+  /*background-color: #b61924;*/
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
