@@ -45,6 +45,10 @@ p{
   color: none;
   text-decoration: none;
 }
+.one a:visited{
+  color: none;
+  text-decoration: none;
+}
 .one a:before{ 
   content: "";
   position: absolute;
