@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "personal-web-c9ea1",
+    "test": "personal-website-26eba",
+    "personal-website-26eba": "personal-website-26eba"
+  }
+}
