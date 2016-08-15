@@ -41,6 +41,10 @@ p{
   color: #0095ec;
     text-decoration: none;
 }
+.one a:active{
+  color: none;
+  text-decoration: none;
+}
 .one a:before{ 
   content: "";
   position: absolute;
