@@ -32,9 +32,7 @@ color: #4a4a4a;
 p{
   line-height: 2.4rem;
 }
-a{
-  text-decoration: none;
-}
+
 .one a{
   color: #4a4a4a;
   text-decoration: none;
@@ -42,10 +40,9 @@ a{
 }
 .one a:hover{
   color: #0095ec;
-    text-decoration: none;
+  text-decoration: none;
 }
-.one a:active{
-  color: none;
+.one a:active a:visited a:link{
   text-decoration: none;
 }
 
