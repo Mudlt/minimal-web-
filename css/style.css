@@ -43,7 +43,8 @@ p{
   text-decoration: none;
 }
 .one a:active a:visited a:link{
-  text-decoration: none;
+  text-decoration: none !important;
+  border: none !important;
 }
 
 .one a:before{ 
